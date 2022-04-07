@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/* Reset the page settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR*/
+nav {
+  background: #392884;
+  height: 14vh;
+  border-bottom: 1.5px solid white;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .navbar .left img {
+  height: 11vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+  margin: 4.8% 0% 0% 0%;
+}
+
+nav .navbar .left img:hover {
+  cursor: pointer;
+}
+
+nav .navbar .middle {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .navbar .middle li {
+  list-style: none;
+  margin: 0% 30px 0% 0%;
+  font-size: 1.5vw;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+nav .navbar .middle li:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+nav .navbar .right img {
+  margin: 0% 10px 0% 0%;
+  width: 3vw;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+nav .navbar .right img:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  cursor: pointer;
+}
+
+/* Section 1 (Hero Section)*/
+.section-1 {
+  background: #392884;
+  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(#a498d9));
+  background: linear-gradient(#392884, #a498d9);
+  overflow: hidden;
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 75vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-1 .sub1-section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+  margin: -3% 0% 0% 5.5%;
+  width: -webkit-fill-available;
+}
+
+.section-1 .sub1-section1 h2 {
+  font-size: 6vw;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.section-1 .sub1-section1 h3 {
+  font-size: 3vw;
+  text-align: left;
+  font-family: system-ui;
+  font-weight: inherit;
+}
+
+.section-1 .sub1-section1 p {
+  font-size: 1.8vw;
+  text-align: left;
+  font-family: system-ui;
+  font-weight: 400;
+}
+
+.section-1 .sub1-section1 a {
+  margin-top: 6%;
+  font-size: 1.3vw;
+  border: 1px solid #161616;
+  border-radius: 8px;
+  padding: 1% 1.5% 1% 1.5%;
+  font-family: system-ui;
+  font-weight: 500;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-1 .sub1-section1 a:hover {
+  color: whitesmoke;
+  background: #070707;
+  border: 1px solid #020202;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.section-1 .sub2-section1 {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-1 .sub2-section1 img {
+  width: 27vw;
+}
+/*# sourceMappingURL=style.css.map */
