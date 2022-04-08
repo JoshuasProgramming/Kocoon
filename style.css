@@ -9,7 +9,6 @@
 nav {
   background: #392884;
   height: 14vh;
-  border-bottom: 1.5px solid white;
 }
 
 nav .navbar {
@@ -26,6 +25,7 @@ nav .navbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  height: 15vh;
 }
 
 nav .navbar .left img {
@@ -89,15 +89,13 @@ nav .navbar .right img:hover {
 
 /* Section 1 (Hero Section)*/
 .section-1 {
-  background: #392884;
-  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(#a498d9));
-  background: linear-gradient(#392884, #a498d9);
-  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.58))), url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
+  background: linear-gradient(#392884, rgba(143, 118, 255, 0.58)), url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
   background-size: cover;
-  min-height: 90%;
+  min-height: 80%;
   width: 100%;
   float: left;
-  height: 75vh;
+  height: 88vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,15 +146,25 @@ nav .navbar .right img:hover {
   font-weight: inherit;
 }
 
-.section-1 .sub1-section1 p {
-  font-size: 1.8vw;
-  text-align: left;
-  font-family: system-ui;
-  font-weight: 400;
+.section-1 .sub1-section1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: -webkit-fill-available;
 }
 
-.section-1 .sub1-section1 a {
-  margin-top: 6%;
+.section-1 .sub1-section1 div a {
+  margin: 6% 1.5% 0% 0%;
   font-size: 1.3vw;
   border: 1px solid #161616;
   border-radius: 8px;
@@ -169,7 +177,7 @@ nav .navbar .right img:hover {
   transition: ease-in-out 0.5s;
 }
 
-.section-1 .sub1-section1 a:hover {
+.section-1 .sub1-section1 div a:hover {
   color: whitesmoke;
   background: #070707;
   border: 1px solid #020202;
@@ -193,5 +201,19 @@ nav .navbar .right img:hover {
 
 .section-1 .sub2-section1 img {
   width: 27vw;
+}
+
+/* Section 2 */
+.section-2 {
+  background: #eeeeee;
+  height: 100vh;
+}
+
+.section-2 .sub1-section2 h2 {
+  font-size: 2.5vw;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding: 3%;
 }
 /*# sourceMappingURL=style.css.map */

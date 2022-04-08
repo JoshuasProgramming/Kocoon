@@ -10,13 +10,13 @@
 nav{
     background: #392884;
     height: 14vh;
-    border-bottom: 1.5px solid white;
 
     .navbar{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row;
+        height: 15vh;
         
         .left{
             img{
@@ -71,15 +71,12 @@ nav{
 
 /* Section 1 (Hero Section)*/
 .section-1{
-    background: #392884;
-    background: -webkit-linear-gradient(rgb(57, 40, 132), rgb(164, 152, 217));
-    background: linear-gradient(rgb(57, 40, 132), rgb(164, 152, 217));
-    overflow: hidden;
+    background: linear-gradient(rgba(57, 40, 132, 1), rgba(143, 118, 255, 0.580)),url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
     background-size:cover;
-    min-height: 90%;
+    min-height: 80%;
     width:100%;
     float: left;
-    height: 75vh;
+    height: 88vh;
     position: relative;
 
     display: flex;
@@ -110,30 +107,30 @@ nav{
             font-weight: inherit;
         }
 
-        p{
-            font-size: 1.8vw;
-            text-align: left;
-            font-family: system-ui;
-            font-weight: 400;
-        }
-
-        a{
-            margin-top:6%;
-            font-size: 1.3vw;
-            border: 1px solid #161616;
-            border-radius: 8px;
-            padding: 1% 1.5% 1% 1.5%;
-            font-family: system-ui;
-            font-weight: 500;
-            align-self: flex-start;
-            transition: ease-in-out 0.5s;
-
-            &:hover{
-                color: whitesmoke;
-                background: rgb(7, 7, 7);
-                border: 1px solid #020202;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            flex-direction: row;
+            width: -webkit-fill-available;
+            a{
+                margin: 6% 1.5% 0% 0%;
+                font-size: 1.3vw;
+                border: 1px solid #161616;
+                border-radius: 8px;
+                padding: 1% 1.5% 1% 1.5%;
+                font-family: system-ui;
+                font-weight: 500;
+                align-self: flex-start;
                 transition: ease-in-out 0.5s;
-                cursor: pointer;
+    
+                &:hover{
+                    color: whitesmoke;
+                    background: rgb(7, 7, 7);
+                    border: 1px solid #020202;
+                    transition: ease-in-out 0.5s;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -146,6 +143,24 @@ nav{
         
         img{
             width: 27vw;
+        }
+    }
+}
+
+/* Section 2 */
+.section-2{
+    // background: linear-gradient(rgb(143, 118, 255), rgb(223, 223, 223));
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    
+    .sub1-section2{
+
+        h2{
+            font-size: 2.5vw;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 900;
+            padding: 3%;
         }
     }
 }
