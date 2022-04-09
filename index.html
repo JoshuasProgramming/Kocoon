@@ -18,18 +18,20 @@
 <body>
 
     <!--Navigation bar-->
-    <nav>
+    <nav id="navigation">
         <ul class="navbar">
 
             <div class="left">
-                <!--Logo of Kocoon goes here-->
+                <!--Logo of Kocoon goes here (images/Kocoon.png)-->
                 <div class="left-nav-image"></div>
-                <img src="images/Kocoon.png" alt="Kocoon-image">
+                <a href="#landing_page">
+                    <img src="images/transparentLogo.png" alt="Kocoon-image">
+                </a>
             </div>
 
             <div class="middle">
                 <!--Hamburger menu goes here (mobile and tablet) || list items (desktop and beyond)-->
-                <li>About Us</li>
+                <li><a href="#about_us">About Us</a></li>
                 <li>Our Articles</li>
                 <li>Our Community</li>
                 <li>Our Team</li>
@@ -38,14 +40,16 @@
 
             <div class="right">
                 <!--social media icons/links-->
-                <img src="images/linkedin-icon.png" alt="Kocoon-linkedin">
-                <img src="images/instagram-icon.png" alt="Kocoon-instagram">
+                <a href="https://www.linkedin.com/company/kocoonco-op/about/" target="_blank">
+                    <img src="images/linkedin-icon.png" alt="Kocoon-linkedin"></a>
+                <a href="https://www.instagram.com/koco.on/" target="_blank">
+                <img src="images/instagram-icon.png" alt="Kocoon-instagram"></a>
             </div>
         </ul>
     </nav>
 
-    <!--section-1-->
-    <section class="section-1">
+    <!--section-1 (landing page)-->
+    <section class="section-1" id="landing_page">
         <!--sub1-section1-->
         <section class="sub1-section1">
             <!--h2-->
@@ -70,12 +74,22 @@
 
     </section>
 
-    <!--section-2-->
-    <section class="section-2">
+    <!--section-2 (about us page)-->
+    <section class="section-2" id="about_us">
         <section class="sub1-section2">
-            
+            <h2>
+                About Us
+            </h2>
+
+            <p>
+                Our aim is to bridge the gap between knowledgeable academics and professionals (E.G. Sports Scientists, Psychologists, Human geographers), and the general public looking to engage with this accredited community.
+            </p>
         </section>
         
+       
     </section>
+
+    <!--import javascript file below-->
+    <script src="script.js"></script>
 </body>
 </html>
