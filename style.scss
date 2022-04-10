@@ -1,3 +1,4 @@
+//importing fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /*Variable setting for the about section*/
@@ -10,6 +11,18 @@ $dot-color: #392884af;
 
 $dot-size: 0.15rem;
 $dot-space: 2rem;
+
+
+/* Making the page highlighting a different color*/
+::selection {
+    background: #392884af; /* WebKit/Blink Browsers */
+}
+
+// Making the scrolling from section-to-section smooth
+html {
+    scroll-behavior: smooth;
+}
+
 /* Reset the page settings */
 *{
     margin:0;
@@ -99,9 +112,7 @@ nav{
     background-size:cover;
     min-height: 80%;
     width:100%;
-    // float: left;
     height: 105vh;
-    // position: relative;
 
     display: flex;
     align-items: center;
@@ -215,4 +226,95 @@ nav{
     }
 
     
+}
+
+
+/* Section 3 (Our Article Section)*/
+.section-3{
+    background: #f8f8ff;
+    height: 70vh;
+}
+
+/* Section 4 (Our Community Section) */
+.section-4{
+    background: linear-gradient(rgba(57, 40, 132, 1), rgba(143, 118, 255, 0.580)),url(images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
+    height: 53vh;
+    background-size:cover;
+    min-height: 80%;
+    width:100%;
+
+    .sub1-section4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h3{
+            font-size: 3vw;
+            text-align: center;
+            font-family: system-ui;
+            font-weight: inherit;
+            color: ghostwhite;
+            padding: 5%;
+        }
+
+        a{
+            font-size: 1.15vw;
+            border: 2.5px solid #020202;
+            border-radius: 8px;
+            padding: 0.7% 2.1% 0.7% 2.1%;
+            font-family: system-ui;
+            font-weight: 500;
+            align-self: center;
+            transition: ease-in-out 0.5s;
+            background: rgba(248, 248, 255, 0.966);
+
+            &:hover{
+                color: whitesmoke;
+                background: rgb(7, 7, 7);
+                border: 2.5px solid #020202;
+                transition: ease-in-out 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/* Section 5 (Our Team)*/
+.section-5{
+    background: #f8f8ff;
+    height: 70vh;
+}
+
+/* Section 6 (Footer)*/
+.section-6{
+    background: linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center, linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center, $dot-color;
+    background-size: $dot-space $dot-space;
+    height: 30vh;
+
+    .sub1-section6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 30vh;
+
+        img{
+            height: 9vh;
+            width: 16vw;
+            background-repeat: no-repeat;
+            margin: 4.8% 0% 2% 0%;
+            transition: ease-in-out 0.5s;
+
+            &:hover{
+                transition: ease-in-out 0.5s;
+                transform: scale(1.2);
+            }
+        }
+
+        p{
+            font-size: 1.5vw;
+            font-family: 'Roboto';
+        }
+    }
 }

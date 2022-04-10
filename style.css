@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 /*Variable setting for the about section*/
+/* Making the page highlighting a different color*/
+::-moz-selection {
+  background: #392884af;
+  /* WebKit/Blink Browsers */
+}
+::selection {
+  background: #392884af;
+  /* WebKit/Blink Browsers */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Reset the page settings */
 * {
   margin: 0;
@@ -278,5 +292,122 @@ nav .navbar .right img:hover {
   font-style: oblique;
   font-weight: 500;
   word-spacing: 0.1vw;
+}
+
+/* Section 3 (Our Article Section)*/
+.section-3 {
+  background: #f8f8ff;
+  height: 70vh;
+}
+
+/* Section 4 (Our Community Section) */
+.section-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.58))), url(images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
+  background: linear-gradient(#392884, rgba(143, 118, 255, 0.58)), url(images/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
+  height: 53vh;
+  background-size: cover;
+  min-height: 80%;
+  width: 100%;
+}
+
+.section-4 .sub1-section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-4 .sub1-section4 h3 {
+  font-size: 3vw;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: inherit;
+  color: ghostwhite;
+  padding: 5%;
+}
+
+.section-4 .sub1-section4 a {
+  font-size: 1.15vw;
+  border: 2.5px solid #020202;
+  border-radius: 8px;
+  padding: 0.7% 2.1% 0.7% 2.1%;
+  font-family: system-ui;
+  font-weight: 500;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background: rgba(248, 248, 255, 0.966);
+}
+
+.section-4 .sub1-section4 a:hover {
+  color: whitesmoke;
+  background: #070707;
+  border: 2.5px solid #020202;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+/* Section 5 (Our Team)*/
+.section-5 {
+  background: #f8f8ff;
+  height: 70vh;
+}
+
+/* Section 6 (Footer)*/
+.section-6 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.85rem, #eeeeee), color-stop(1%, transparent)) center, -webkit-gradient(linear, left top, left bottom, color-stop(1.85rem, #eeeeee), color-stop(1%, transparent)) center, #392884af;
+  background: linear-gradient(90deg, #eeeeee 1.85rem, transparent 1%) center, linear-gradient(#eeeeee 1.85rem, transparent 1%) center, #392884af;
+  background-size: 2rem 2rem;
+  height: 30vh;
+}
+
+.section-6 .sub1-section6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30vh;
+}
+
+.section-6 .sub1-section6 img {
+  height: 9vh;
+  width: 16vw;
+  background-repeat: no-repeat;
+  margin: 4.8% 0% 2% 0%;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-6 .sub1-section6 img:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.section-6 .sub1-section6 p {
+  font-size: 1.5vw;
+  font-family: 'Roboto';
 }
 /*# sourceMappingURL=style.css.map */
