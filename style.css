@@ -296,8 +296,235 @@ nav .navbar .right img:hover {
 
 /* Section 3 (Our Article Section)*/
 .section-3 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.85rem, #392884), color-stop(1%, transparent)) center, -webkit-gradient(linear, left top, left bottom, color-stop(1.85rem, #392884), color-stop(1%, transparent)) center, #eeeeee;
+  background: linear-gradient(90deg, #392884 1.85rem, transparent 1%) center, linear-gradient(#392884 1.85rem, transparent 1%) center, #eeeeee;
+  background-size: 2rem 2rem;
+  height: 85vh;
+}
+
+.section-3 .section-3-title-h2 {
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: normal;
+  padding: 3% 0% 0% 41%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #f5f5ff;
+}
+
+.section-3 .sub1-section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-3 .sub1-section3 div {
+  width: 31vw;
+  height: 28vh;
+  margin: 6% 0% 0% 0%;
   background: #f8f8ff;
-  height: 70vh;
+  border-radius: 4px;
+}
+
+.section-3 .sub1-section3 .article-card1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#39288400), to(#8f76ff70)), url(images/trnava-university-PoEbadI3mQQ-unsplash.jpg);
+  background: linear-gradient(#39288400, #8f76ff70), url(images/trnava-university-PoEbadI3mQQ-unsplash.jpg);
+  height: 38vh;
+  background-size: cover;
+  min-height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub1-section3 .article-card1 h2 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #f8f8ff;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-3 .sub1-section3 .article-card1 h2:hover {
+  font-size: 4.5vw;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.section-3 .sub1-section3 .article-card1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub1-section3 .article-card2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#39288400), to(#8f76ff70)), url(images/sigmund-HsTnjCVQ798-unsplash.jpg);
+  background: linear-gradient(#39288400, #8f76ff70), url(images/sigmund-HsTnjCVQ798-unsplash.jpg);
+  height: 38vh;
+  background-size: cover;
+  min-height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub1-section3 .article-card2 h2 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #f8f8ff;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-3 .sub1-section3 .article-card2 h2:hover {
+  font-size: 4.5vw;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.section-3 .sub1-section3 .article-card2:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub1-section3 .article-card3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#39288400), to(#8f76ff70)), url(images/old-youth-KhrHYvG0SOI-unsplash.jpg);
+  background: linear-gradient(#39288400, #8f76ff70), url(images/old-youth-KhrHYvG0SOI-unsplash.jpg);
+  height: 38vh;
+  background-size: cover;
+  min-height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub1-section3 .article-card3 h2 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #f8f8ff;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.section-3 .sub1-section3 .article-card3 h2:hover {
+  font-size: 4.5vw;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.section-3 .sub1-section3 .article-card3:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.section-3 .sub2-section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-3 .sub2-section3 a {
+  font-size: 1.15vw;
+  border: 2.5px solid #020202;
+  border-radius: 8px;
+  padding: 0.7% 2.1% 0.7% 2.1%;
+  font-family: system-ui;
+  font-weight: 500;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background: rgba(248, 248, 255, 0.966);
+  text-decoration: none;
+  color: black;
+  margin: 2% 0% 0% 0%;
+}
+
+.section-3 .sub2-section3 a:hover {
+  color: whitesmoke;
+  background: #070707;
+  border: 2.5px solid #020202;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
 }
 
 /* Section 4 (Our Community Section) */
@@ -348,6 +575,8 @@ nav .navbar .right img:hover {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
   background: rgba(248, 248, 255, 0.966);
+  text-decoration: none;
+  color: black;
 }
 
 .section-4 .sub1-section4 a:hover {
@@ -360,11 +589,6 @@ nav .navbar .right img:hover {
 }
 
 /* Section 5 (Our Team)*/
-.section-5 {
-  background: #f8f8ff;
-  height: 70vh;
-}
-
 /* Section 6 (Footer)*/
 .section-6 {
   background: -webkit-gradient(linear, left top, right top, color-stop(1.85rem, #eeeeee), color-stop(1%, transparent)) center, -webkit-gradient(linear, left top, left bottom, color-stop(1.85rem, #eeeeee), color-stop(1%, transparent)) center, #392884af;
