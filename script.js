@@ -1,4 +1,3 @@
-
 //grab the navigation bar element
 const navigation = document.getElementById('navigation');
 

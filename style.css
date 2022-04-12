@@ -206,6 +206,8 @@ nav .navbar .right img:hover {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
   background: rgba(248, 248, 255, 0.966);
+  text-decoration: none;
+  color: #020202;
 }
 
 .section-1 .sub1-section1 div a:hover {

@@ -16,8 +16,6 @@ $dot-size: 0.15rem;
 $dot-space: 2rem;
 
 
-
-
 /* Making the page highlighting a different color*/
 ::selection {
     background: #392884af; /* WebKit/Blink Browsers */
@@ -166,6 +164,8 @@ nav{
                 align-self: flex-start;
                 transition: ease-in-out 0.5s;
                 background: rgba(248, 248, 255, 0.966);
+                text-decoration: none;
+                color: #020202;
     
                 &:hover{
                     color: whitesmoke;
