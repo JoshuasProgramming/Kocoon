@@ -75,12 +75,15 @@ nav{
                 transition: ease-in-out 0.5s;
 
                 a{
+                    transition: ease-in-out 0.5s;
                     text-decoration: none;
-                    color: #020202;
+                    color: #f5f5f5;
+                    opacity: 80%;
 
                     &:hover{
                         transition: ease-in-out 0.5s;
                         color: whitesmoke;
+                        opacity: 100%;
                         cursor: pointer;
                     }
                 }
@@ -509,3 +512,4 @@ nav{
         }
     }
 }
+
