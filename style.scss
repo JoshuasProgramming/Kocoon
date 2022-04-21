@@ -513,3 +513,96 @@ nav{
     }
 }
 
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width:912px){
+    
+    /* NAVIGATION BAR*/
+    nav{
+        background: #39288400;
+        height: 14vh;
+        position: fixed;
+        z-index: 9999;
+        width: -webkit-fill-available;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            height: 15vh;
+
+            .left{
+                
+                img{
+                    height: 8vh;
+                    width: 30vw;
+                    background-repeat: no-repeat;
+                    margin: 4.8% 0% 0% 0%;
+                }
+
+            }
+    
+            .middle{
+                display: none;
+            }
+    
+            .right{
+                display: none;
+            }
+        }
+
+        
+    }
+
+    /* Section 1 (Hero Section)*/
+    .section-1{
+        
+        background: linear-gradient(rgba(57, 40, 132, 1), rgba(143, 118, 255, 0.580)),url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
+        background-size:cover;
+        min-height: 80%;
+        width:100%;
+        height: 55vh;
+
+        .sub1-section1{
+
+            margin: 3% 0% 0% 5.5%;
+
+            div{
+                a{
+                    font-size: 3vw;
+                    border: 1.5px solid #020202;
+                }
+            }
+
+            h3{
+                font-size: 4vw;
+            }
+
+            h2{
+                font-size: 9vw;
+            }
+
+        }
+
+    }
+
+    .section-2{
+        display: none;
+    }
+
+    .section-3{
+        display: none;
+    }
+
+    .section-4{
+        display: none;
+    }
+
+    .section-5{
+        display: none;
+    }
+
+    .section-6{
+        display: none;
+    }
+}

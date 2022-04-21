@@ -640,4 +640,81 @@ nav .navbar .right img:hover {
   font-size: 1.5vw;
   font-family: 'Roboto';
 }
+
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width: 912px) {
+  /* NAVIGATION BAR*/
+  nav {
+    background: #39288400;
+    height: 14vh;
+    position: fixed;
+    z-index: 9999;
+    width: -webkit-fill-available;
+  }
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 15vh;
+  }
+  nav .navbar .left img {
+    height: 8vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    margin: 4.8% 0% 0% 0%;
+  }
+  nav .navbar .middle {
+    display: none;
+  }
+  nav .navbar .right {
+    display: none;
+  }
+  /* Section 1 (Hero Section)*/
+  .section-1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.58))), url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
+    background: linear-gradient(#392884, rgba(143, 118, 255, 0.58)), url(images/brooke-cagle-_6cz9KUvnxM-unsplash.jpg);
+    background-size: cover;
+    min-height: 80%;
+    width: 100%;
+    height: 55vh;
+  }
+  .section-1 .sub1-section1 {
+    margin: 3% 0% 0% 5.5%;
+  }
+  .section-1 .sub1-section1 div a {
+    font-size: 3vw;
+    border: 1.5px solid #020202;
+  }
+  .section-1 .sub1-section1 h3 {
+    font-size: 4vw;
+  }
+  .section-1 .sub1-section1 h2 {
+    font-size: 9vw;
+  }
+  .section-2 {
+    display: none;
+  }
+  .section-3 {
+    display: none;
+  }
+  .section-4 {
+    display: none;
+  }
+  .section-5 {
+    display: none;
+  }
+  .section-6 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
