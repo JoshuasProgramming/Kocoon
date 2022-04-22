@@ -724,17 +724,18 @@ nav{
 
 
     .section-4{
-        height: 25vh;
+        height: 38vh;
 
         .sub1-section4{
 
             h3{
-                font-size: 2.5vh;
+                font-size: 3.4vh;
                 padding: 9% 5%;
             }
 
             a{
-                font-size: 3.15vw;
+                font-size: 3.35vw;
+                padding: 1.7% 2.1% 1.7% 2.1%;
             }
 
         }
@@ -762,6 +763,18 @@ nav{
     }
 
     .section-6{
-        display: none;
+        height: 22vh;
+
+        .sub1-section6{
+            height: 19vh;
+
+            img{
+                width: 44vw;
+            }
+
+            p{
+                font-size: 4vw;
+            }
+        }
     }
 }
