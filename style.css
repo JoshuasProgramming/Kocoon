@@ -793,6 +793,7 @@ nav .navbar .right img:hover {
 }
 
 @media screen and (min-height: 440px) and (max-width: 912px) {
+  /* Section 3 (Our Article Section)*/
   .section-3 {
     height: 130vh;
   }
@@ -841,6 +842,7 @@ nav .navbar .right img:hover {
   .section-3 .sub2-section3 {
     display: none;
   }
+  /* Section 4 (Our Community Section) */
   .section-4 {
     height: 38vh;
   }
@@ -869,6 +871,7 @@ nav .navbar .right img:hover {
   .section-5 {
     display: none;
   }
+  /* Section 6 (Footer)*/
   .section-6 {
     height: 22vh;
   }

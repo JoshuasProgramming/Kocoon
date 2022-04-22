@@ -250,3 +250,54 @@ nav{
         }
     }
 }
+
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width:912px){
+
+    /* NAVIGATION BAR*/
+    nav{
+        background: #39288400;
+        height: 14vh;
+        position: fixed;
+        z-index: 9999;
+        width: -webkit-fill-available;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            height: 15vh;
+
+            .left{
+                
+                img{
+                    height: 8vh;
+                    width: 30vw;
+                    background-repeat: no-repeat;
+                    margin: 4.8% 0% 0% 0%;
+                }
+
+            }
+    
+            .middle{
+                display: none;
+            }
+    
+            .right{
+                display: none;
+            }
+        }
+
+        
+    }
+
+    .section-1{
+        display: none;
+    }
+
+    .section-2{
+        display: none;
+    }
+
+}

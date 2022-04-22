@@ -306,4 +306,50 @@ nav .navbar .right img:hover {
   transition: ease-in-out 0.5s;
   cursor: pointer;
 }
+
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width: 912px) {
+  /* NAVIGATION BAR*/
+  nav {
+    background: #39288400;
+    height: 14vh;
+    position: fixed;
+    z-index: 9999;
+    width: -webkit-fill-available;
+  }
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 15vh;
+  }
+  nav .navbar .left img {
+    height: 8vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    margin: 4.8% 0% 0% 0%;
+  }
+  nav .navbar .middle {
+    display: none;
+  }
+  nav .navbar .right {
+    display: none;
+  }
+  .section-1 {
+    display: none;
+  }
+  .section-2 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=gambling.css.map */
