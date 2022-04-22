@@ -346,7 +346,24 @@ nav .navbar .right img:hover {
     display: none;
   }
   .section-1 {
-    display: none;
+    height: 48vh;
+  }
+  .section-1 .sub1-section1 {
+    margin: 5.5% 20% 0% 9%;
+  }
+  .section-1 .sub1-section1 div a {
+    font-size: 3vw;
+    margin: 6% 3% 0% 0%;
+    border: 1px solid #020202;
+    border-radius: 8px;
+    padding: 1.5% 2.5% 2% 2.5%;
+  }
+  .section-1 .sub1-section1 h3 {
+    font-size: 4vw;
+    margin-top: 3.5%;
+  }
+  .section-1 .sub1-section1 h2 {
+    font-size: 7vw;
   }
   .section-2 {
     display: none;
