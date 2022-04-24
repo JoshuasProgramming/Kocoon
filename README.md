@@ -17,6 +17,7 @@ I really enjoyed the process of breaking down the website that I had to make, vi
 
 * There wasn't a UI/UX design, so I had to learn design skills
 * Updating my knowledge on responsive design.
+* Looking for ways to minimise the amount of code that I write
 
 
 # Final Product 1920x1080 Desktop
