@@ -242,7 +242,7 @@ nav .navbar .right img:hover {
 
 /* Section 2 (Article Blog) */
 .section-2 {
-  height: 507vh;
+  height: 700vh;
   background: #eeeeee;
 }
 
@@ -271,6 +271,10 @@ nav .navbar .right img:hover {
   word-spacing: 0vw;
   text-align: justify;
   margin: 4vw;
+}
+
+.section-2 .sub1-section2 p span {
+  color: #392884;
 }
 
 .section-2 .sub1-section2 .gambling_image_container {
@@ -389,7 +393,7 @@ nav .navbar .right img:hover {
     font-size: 7vw;
   }
   .section-2 {
-    height: 462vh;
+    height: 507vh;
   }
   .section-2 .sub1-section2 p {
     word-spacing: -0.25vw;
@@ -406,7 +410,7 @@ nav .navbar .right img:hover {
 
 @media screen and (min-height: 440px) and (max-width: 912px) and (min-width: 540px) and (max-width: 912px) and (min-height: 720px) and (max-height: 1368px) {
   .section-2 {
-    height: 456vh;
+    height: 644vh;
   }
 }
 /*# sourceMappingURL=gambling.css.map */
