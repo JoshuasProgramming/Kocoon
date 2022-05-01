@@ -242,7 +242,7 @@ nav .navbar .right img:hover {
 
 /* Section 2 (Article Blog) */
 .section-2 {
-  height: 440vh;
+  height: 507vh;
   background: #eeeeee;
 }
 
@@ -271,6 +271,29 @@ nav .navbar .right img:hover {
   word-spacing: 0vw;
   text-align: justify;
   margin: 4vw;
+}
+
+.section-2 .sub1-section2 .gambling_image_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: -webkit-fill-available;
+  padding-top: 10px;
+}
+
+.section-2 .sub1-section2 .gambling_image_container img {
+  width: -webkit-fill-available;
+  height: auto;
 }
 
 .section-2 .sub1-section2 h3 {
@@ -366,7 +389,7 @@ nav .navbar .right img:hover {
     font-size: 7vw;
   }
   .section-2 {
-    height: 348vh;
+    height: 462vh;
   }
   .section-2 .sub1-section2 p {
     word-spacing: -0.25vw;

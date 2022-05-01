@@ -195,7 +195,7 @@ nav{
 
 /* Section 2 (Article Blog) */
 .section-2{
-    height:440vh;
+    height: 507vh;
     background: #eeeeee;
 
     .sub1-section2{
@@ -217,6 +217,23 @@ nav{
             text-align: justify;
             margin: 4vw;
         }
+
+        .gambling_image_container{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            max-width: -webkit-fill-available;
+            padding-top: 10px;
+
+            img{
+                width: -webkit-fill-available;
+                height: auto;
+            }
+        }
+
+        
 
         h3{
             margin-top: 2.5%;
@@ -324,7 +341,7 @@ nav{
     }
 
     .section-2{
-        height: 348vh;
+        height: 462vh;
 
         .sub1-section2{
 
