@@ -196,3 +196,69 @@ nav{
         }
     }
 }
+
+.section-2{
+    background: #eeeeee;
+
+    .sub1-section2{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 0% 10% 0% 10%;
+
+        p{
+            margin-top: 2.5%;
+            font-size: 1.45vw;
+            font-family:'Roboto';
+            font-weight: 100;
+            word-spacing: 10px;
+            font-style:oblique;
+            font-weight: 500;
+            word-spacing: 0vw;
+            text-align: justify;
+            margin: 2vw;
+
+            span{
+                color:#392884;
+            }
+        }
+
+        .greenwashing_image_container{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            max-width: -webkit-fill-available;
+            padding-top: 62px;
+
+            img{
+                width: -webkit-fill-available;
+                height: auto;
+            }
+        }
+
+        h3{
+            margin-top: 2.5%;
+            font-size: 2.2vw;
+            font-family: 'Roboto';
+            font-weight: normal;
+            text-align: center;
+        }
+
+        ul{
+            li{
+                font-size: 1.45vw;
+                font-family:'Roboto';
+                font-weight: 100;
+                word-spacing: 10px;
+                font-style:oblique;
+                font-weight: 500;
+                word-spacing: 0vw;
+                text-align: justify; 
+                margin: 0.75vw;
+            }
+        }
+    }
+}
