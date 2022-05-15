@@ -260,5 +260,147 @@ nav{
                 margin: 0.75vw;
             }
         }
+
+        .back-to-top-btn{
+            font-size: 1.45vw;
+            border: 2.5px solid #020202;
+            border-radius: 8px;
+            padding: 1% 1.5% 1% 1.5%;
+            font-family: system-ui;
+            font-weight: 500;
+            align-self: flex-start;
+            transition: ease-in-out 0.5s;
+            background: rgba(248, 248, 255, 0.966);
+            text-decoration: none;
+            color: #020202;
+
+            &:hover{
+                color: whitesmoke;
+                background: rgb(7, 7, 7);
+                border: 2.5px solid #020202;
+                transition: ease-in-out 0.5s;
+                cursor: pointer;
+            }
+        }
     }
+}
+
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width:912px){
+
+    /* NAVIGATION BAR*/
+    nav{
+        background: #39288400;
+        height: 14vh;
+        position: fixed;
+        z-index: 9999;
+        width: -webkit-fill-available;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            height: 15vh;
+
+            .left{
+                
+                img{
+                    height: 8vh;
+                    width: 30vw;
+                    background-repeat: no-repeat;
+                    margin: 4.8% 0% 0% 0%;
+                }
+
+            }
+    
+            .middle{
+                display: none;
+            }
+    
+            .right{
+                display: none;
+            }
+        }
+
+        
+    }
+
+    .section-1{
+        height: 48vh;
+
+        .sub1-section1{
+            margin: 5.5% 20% 0% 9%;
+
+            div{
+
+                a{
+                    font-size: 3vw;
+                    margin: 6% 3% 0% 0%;
+                    border: 1px solid #020202;
+                    border-radius: 8px;
+                    padding: 1.5% 2.5% 2% 2.5%;
+                }
+
+            }
+
+            h3{
+                font-size: 4vw;
+                margin-top: 3.5%;
+            }
+
+            h2{
+                font-size: 7vw;
+            }
+        }
+
+        
+    }
+
+    .section-2{
+        height: 507vh;
+
+        .sub1-section2{
+
+            p{
+                word-spacing: -0.25vw;
+                font-size: 3vw;
+            }
+
+            h3{
+                font-size: 4.3vw;
+            }
+        }
+
+        .sub1-section2{
+
+            .back-to-top-btn{
+                font-size: 3.45vw;
+            }
+
+            ul{
+                li{
+                    font-size: 3vw;
+                    font-family:'Roboto';
+                    font-weight: 100;
+                    word-spacing: 10px;
+                    font-style:oblique;
+                    font-weight: 500;
+                    word-spacing: 0vw;
+                    text-align: justify; 
+                    margin: 0.75vw;
+                }
+            }
+
+        }
+    }
+
+    /* Media query for Tablets [section-2] (Ipad Air, Ipad mimi, Surface Pro 7) */
+    @media screen and (min-width: 540px) and (max-width: 912px) and (min-height:720px) and (max-height:1368px) {
+
+        .section-2{
+            height: 644vh;
+        }
+    }
+
 }
