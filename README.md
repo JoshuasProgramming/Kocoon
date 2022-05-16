@@ -3,6 +3,8 @@ Kocoon is an educational platform that focuses on the wellbeing by presenting ac
 
 I designed and developed version 1.0 of the fully responsive website. This website uses HTML, SASS, JavaScript & Responsive Design.
 
+Furture updates to this website will continue as time goes on
+
 # Lessons Learned
 
 I really enjoyed the process of breaking down the website that I had to make, via divide and conquer. The lessons learned are below:
