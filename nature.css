@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Variable setting for the about section*/
+/* Making the page highlighting a different color*/
+::-moz-selection {
+  background: #392884af;
+  /* WebKit/Blink Browsers */
+}
+::selection {
+  background: #392884af;
+  /* WebKit/Blink Browsers */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset the page settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR*/
+nav {
+  background: #39288400;
+  height: 14vh;
+  position: fixed;
+  z-index: 9999;
+  width: -webkit-fill-available;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 15vh;
+}
+
+nav .navbar .left img {
+  height: 8vh;
+  width: 15vw;
+  background-repeat: no-repeat;
+  margin: 4.8% 0% 0% 0%;
+}
+
+nav .navbar .left img:hover {
+  cursor: pointer;
+}
+
+nav .navbar .middle {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .navbar .middle li {
+  list-style: none;
+  margin: 0% 30px 0% 0%;
+  font-size: 1.5vw;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+nav .navbar .middle li a {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+  color: #f5f5f5;
+  opacity: 80%;
+}
+
+nav .navbar .middle li a:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  color: whitesmoke;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+nav .navbar .middle li:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+nav .navbar .right img {
+  margin: 0% 10px 0% 0%;
+  width: 3vw;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+nav .navbar .right img:hover {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  cursor: pointer;
+}
+
+/* Section 1 (Hero Section)*/
+.section-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.42))), url(images/old-youth-KhrHYvG0SOI-unsplash.jpg);
+  background: linear-gradient(#392884, rgba(143, 118, 255, 0.42)), url(images/old-youth-KhrHYvG0SOI-unsplash.jpg);
+  background-size: cover;
+  min-height: 80%;
+  width: 100%;
+  height: 115vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-1 .sub1-section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+  margin: -3% 20% 0% 9%;
+  width: -webkit-fill-available;
+}
+
+.section-1 .sub1-section1 h2 {
+  font-size: 7vw;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  color: #f8f8ff;
+}
+
+.section-1 .sub1-section1 h3 {
+  font-size: 3.5vw;
+  text-align: left;
+  font-family: system-ui;
+  font-weight: inherit;
+  color: ghostwhite;
+}
+
+.section-1 .sub1-section1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: -webkit-fill-available;
+}
+
+.section-1 .sub1-section1 div a {
+  margin: 6% 1.5% 0% 0%;
+  font-size: 1.45vw;
+  border: 2.5px solid #020202;
+  border-radius: 8px;
+  padding: 1% 1.5% 1% 1.5%;
+  font-family: system-ui;
+  font-weight: 500;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background: rgba(248, 248, 255, 0.966);
+  text-decoration: none;
+  color: #020202;
+}
+
+.section-1 .sub1-section1 div a:hover {
+  color: whitesmoke;
+  background: #070707;
+  border: 2.5px solid #020202;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.section-1 .sub2-section1 {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-1 .sub2-section1 img {
+  width: 27vw;
+}
+
+.section-2 {
+  background: #eeeeee;
+}
+
+.section-2 .sub1-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0% 10% 0% 10%;
+}
+
+.section-2 .sub1-section2 p {
+  margin-top: 2.5%;
+  font-size: 1.45vw;
+  font-family: 'Roboto';
+  font-weight: 100;
+  word-spacing: 10px;
+  font-style: oblique;
+  font-weight: 500;
+  word-spacing: 0vw;
+  text-align: justify;
+  margin: 2vw;
+}
+
+.section-2 .sub1-section2 p span {
+  color: #392884;
+}
+
+.section-2 .sub1-section2 .nature_image_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: -webkit-fill-available;
+  padding-top: 62px;
+}
+
+.section-2 .sub1-section2 .nature_image_container img {
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+.section-2 .sub1-section2 h3 {
+  margin-top: 2.5%;
+  font-size: 2.2vw;
+  font-family: 'Roboto';
+  font-weight: normal;
+  text-align: center;
+}
+
+.section-2 .sub1-section2 ul li {
+  font-size: 1.45vw;
+  font-family: 'Roboto';
+  font-weight: 100;
+  word-spacing: 10px;
+  font-style: oblique;
+  font-weight: 500;
+  word-spacing: 0vw;
+  text-align: justify;
+  margin: 0.75vw;
+}
+
+.section-2 .sub1-section2 .back-to-top-btn {
+  font-size: 1.45vw;
+  border: 2.5px solid #020202;
+  border-radius: 8px;
+  padding: 1% 1.5% 1% 1.5%;
+  font-family: system-ui;
+  font-weight: 500;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background: rgba(248, 248, 255, 0.966);
+  text-decoration: none;
+  color: #020202;
+}
+
+.section-2 .sub1-section2 .back-to-top-btn:hover {
+  color: whitesmoke;
+  background: #070707;
+  border: 2.5px solid #020202;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+/*Majority of phones and some tablets (ipad Air, ipad mini, surface pro 7) (works when we are vertical and horizontal)*/
+@media screen and (min-height: 440px) and (max-width: 912px) {
+  /* NAVIGATION BAR*/
+  nav {
+    background: #39288400;
+    height: 14vh;
+    position: fixed;
+    z-index: 9999;
+    width: -webkit-fill-available;
+  }
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 15vh;
+  }
+  nav .navbar .left img {
+    height: 8vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    margin: 4.8% 0% 0% 0%;
+  }
+  nav .navbar .middle {
+    display: none;
+  }
+  nav .navbar .right {
+    display: none;
+  }
+  .section-1 {
+    height: 48vh;
+  }
+  .section-1 .sub1-section1 {
+    margin: 5.5% 20% 0% 9%;
+  }
+  .section-1 .sub1-section1 div a {
+    font-size: 3vw;
+    margin: 6% 3% 0% 0%;
+    border: 1px solid #020202;
+    border-radius: 8px;
+    padding: 1.5% 2.5% 2% 2.5%;
+  }
+  .section-1 .sub1-section1 h3 {
+    font-size: 4vw;
+    margin-top: 3.5%;
+  }
+  .section-1 .sub1-section1 h2 {
+    font-size: 7vw;
+  }
+  .section-2 {
+    height: 507vh;
+  }
+  .section-2 .sub1-section2 p {
+    word-spacing: -0.25vw;
+    font-size: 3vw;
+  }
+  .section-2 .sub1-section2 h3 {
+    font-size: 4.3vw;
+  }
+  .section-2 .sub1-section2 .back-to-top-btn {
+    font-size: 3.45vw;
+  }
+  .section-2 .sub1-section2 ul li {
+    font-size: 3vw;
+    font-family: 'Roboto';
+    font-weight: 100;
+    word-spacing: 10px;
+    font-style: oblique;
+    font-weight: 500;
+    word-spacing: 0vw;
+    text-align: justify;
+    margin: 0.75vw;
+  }
+  /* Media query for Tablets [section-2] (Ipad Air, Ipad mimi, Surface Pro 7) */
+}
+
+@media screen and (min-height: 440px) and (max-width: 912px) and (min-width: 540px) and (max-width: 912px) and (min-height: 720px) and (max-height: 1368px) {
+  .section-2 {
+    height: 644vh;
+  }
+}
+/*# sourceMappingURL=nature.css.map */
