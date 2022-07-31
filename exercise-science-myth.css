@@ -277,7 +277,7 @@ nav .navbar .right img:hover {
   color: #392884;
 }
 
-.section-2 .sub1-section2 .anxiety_image_container {
+.section-2 .sub1-section2 .esm_image_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,7 +295,7 @@ nav .navbar .right img:hover {
   padding-top: 10px;
 }
 
-.section-2 .sub1-section2 .anxiety_image_container img {
+.section-2 .sub1-section2 .esm_image_container img {
   width: -webkit-fill-available;
   height: auto;
 }
