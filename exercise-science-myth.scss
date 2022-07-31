@@ -252,6 +252,15 @@ nav{
             text-align: center;
         }
 
+        ol{
+            li{
+                font-family: 'Roboto';
+                font-weight: normal;
+                text-align: left;
+                padding-top: 10px;
+            }
+        }
+
         .back-to-top-btn{
             margin: 6% 1.5% 0% 0%;
             font-size: 1.45vw;

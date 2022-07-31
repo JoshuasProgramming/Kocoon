@@ -315,6 +315,13 @@ nav .navbar .right img:hover {
   text-align: center;
 }
 
+.section-2 .sub1-section2 ol li {
+  font-family: 'Roboto';
+  font-weight: normal;
+  text-align: left;
+  padding-top: 10px;
+}
+
 .section-2 .sub1-section2 .back-to-top-btn {
   margin: 6% 1.5% 0% 0%;
   font-size: 1.45vw;
