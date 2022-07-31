@@ -123,8 +123,8 @@ nav .navbar .right img:hover {
 
 /* Section 1 (Hero Section)*/
 .section-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.42))), url(images/sigmund-HsTnjCVQ798-unsplash.jpg);
-  background: linear-gradient(#392884, rgba(143, 118, 255, 0.42)), url(images/sigmund-HsTnjCVQ798-unsplash.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(#392884), to(rgba(143, 118, 255, 0.42))), url(images/trnava-university-PoEbadI3mQQ-unsplash.jpg);
+  background: linear-gradient(#392884, rgba(143, 118, 255, 0.42)), url(images/trnava-university-PoEbadI3mQQ-unsplash.jpg);
   background-size: cover;
   min-height: 80%;
   width: 100%;
