@@ -425,7 +425,10 @@ nav .navbar .right img:hover {
     font-size: 7vw;
   }
   .section-2 {
-    height: 507vh;
+    height: auto;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
   }
   .section-2 .sub1-section2 p {
     word-spacing: -0.25vw;

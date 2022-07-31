@@ -374,7 +374,8 @@ nav{
     }
 
     .section-2{
-        height: 507vh;
+        height: auto;
+        max-height: fit-content;
 
         .sub1-section2{
 
