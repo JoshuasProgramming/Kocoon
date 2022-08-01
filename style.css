@@ -672,6 +672,7 @@ nav .navbar .right img:hover {
     width: 30vw;
     background-repeat: no-repeat;
     margin: 4.8% 0% 0% 0%;
+    height: auto;
   }
   nav .navbar .middle {
     display: none;
