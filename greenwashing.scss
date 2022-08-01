@@ -310,6 +310,7 @@ nav{
                     width: 30vw;
                     background-repeat: no-repeat;
                     margin: 4.8% 0% 0% 0%;
+                    height: auto;
                 }
 
             }
@@ -339,7 +340,7 @@ nav{
                     margin: 6% 3% 0% 0%;
                     border: 1px solid #020202;
                     border-radius: 8px;
-                    padding: 1.5% 2.5% 2% 2.5%;
+                    padding: 1.5% 2% 2% 2%;
                 }
 
             }
@@ -358,7 +359,8 @@ nav{
     }
 
     .section-2{
-        height: 507vh;
+        // height: 507vh;
+        height: auto;
 
         .sub1-section2{
 

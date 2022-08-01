@@ -699,6 +699,9 @@ nav .navbar .right img:hover {
     border-radius: 8px;
     padding: 1.5% 2% 2% 2%;
   }
+  .section-1 .sub1-section1 div a:hover {
+    padding: 1.5% 2% 2% 2%;
+  }
   .section-1 .sub1-section1 h3 {
     font-size: 4vw;
   }
